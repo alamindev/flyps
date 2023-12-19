@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-[18px];
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}
+
+.custom-header-blur {
+  box-shadow: 0px 0px 50px 0px #264eee1f;
+}
+h1 {
+  @apply text-[48px] leading-[65px] font-extrabold;
+}
+
+h2 {
+  @apply text-[38px] leading-[54px] font-normal;
+}
+
+h3 {
+  @apply text-[32px] leading-[44px] font-bold;
+}
+
+h4 {
+  @apply text-[28px] leading-[35px] font-extrabold;
+}
+
+h5 {
+  @apply text-[18px] leading-[27px] font-extrabold;
+}
+
+.builder-blocks {
+  @apply flex flex-col gap-[71px];
+}
+
+.special-gradient {
+  background: var(
+    --Special-Gradient,
+    linear-gradient(90deg, #264eee 27.38%, rgba(255, 61, 46, 0.61) 77.83%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
