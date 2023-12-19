@@ -150,7 +150,7 @@ export default function Blog() {
           <div className="md:col-span-6 lg:col-span-4 overflow-hidden rounded-lg shadow-5xl relative bg-white">
             <Image
               alt="stories"
-              src="/assets/images/blog-img-3.png"
+              src="/assets/images/blog-img-4.png"
               width={380}
               height={245}
               className="h-[245px] w-full object-cover object-center"
