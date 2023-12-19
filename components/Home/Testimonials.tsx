@@ -190,8 +190,8 @@ export default function Testimonials() {
               <div className="w-0.5 bg-g4 hidden lg:block"></div>
               <div className="space-y-6 sm:space-y-2 w-full pt-5">
                 <p className="text-base lg:text-[18px] pr-14 !leading-[1.4] text-brand-body">
-                  &quot;"We're impressed with their ability to combine
-                  technological solutions with our business."&ldquo;
+                  &quot;We&apos;re impressed with their ability to combine
+                  technological solutions with our business.&ldquo;
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex gap-4 items-start pt-3 pl-1">
@@ -272,8 +272,8 @@ export default function Testimonials() {
               <div className="w-0.5 bg-g4 hidden lg:block"></div>
               <div className="space-y-6 sm:space-y-2 w-full pt-5">
                 <p className="text-base lg:text-[18px] pr-14 !leading-[1.4] text-brand-body">
-                  &quot;"It's worth collaborating with Flyps if you think your
-                  project deserves the involvement of real experts."&ldquo;
+                  &quot;It&apos;s worth collaborating with Flyps if you think
+                  your project deserves the involvement of real experts.&ldquo;
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex gap-4 items-start pt-3 pl-1">
@@ -354,8 +354,8 @@ export default function Testimonials() {
               <div className="w-0.5 bg-g4 hidden lg:block"></div>
               <div className="space-y-6 sm:space-y-2 w-full pt-5">
                 <p className="text-base lg:text-[18px] pr-14 !leading-[1.4] text-brand-body">
-                  &quot;"It is safe to say that the end-to-end solution
-                  presented to us exceeded our expectations."&ldquo;
+                  &quot;It is safe to say that the end-to-end solution presented
+                  to us exceeded our expectations.&ldquo;
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex gap-4 items-start">
