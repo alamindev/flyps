@@ -19,19 +19,35 @@ export default function TrustedUs() {
       </div>
       <div className="pt-10 md:pt-14 w-full">
         <Swiper
-          slidesPerView={"auto"}
+          slidesPerView={2.5}
           centeredSlides
           loop
           modules={[Autoplay, FreeMode]}
-          spaceBetween={60}
+          spaceBetween={10}
           breakpoints={{
+            480: {
+              slidesPerView: 3.5,
+              spaceBetween: 0,
+            },
             768: {
-              slidesPerView: 5,
+              slidesPerView: 4.5,
+              spaceBetween: 0,
+            },
+            1024: {
+              slidesPerView: 6,
+              spaceBetween: 0,
+            },
+            1200: {
+              slidesPerView: 7.5,
+              spaceBetween: 0,
+            },
+            1490: {
+              slidesPerView: 9.5,
               spaceBetween: 0,
             },
           }}
         >
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
               src="/assets/images/logo-1.svg"
@@ -40,136 +56,109 @@ export default function TrustedUs() {
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-2.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-3.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-4.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-5.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-6.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-7.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-8.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-3.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-4.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-5.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-6.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
             />
           </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
+          <SwiperSlide className="px-3 sm:px-4 md:px-8 !h-14 !flex items-center">
             <Image
               alt="stories"
-              src="/assets/images/logo-1.svg"
-              width={150}
-              height={40}
-              className="w-auto h-auto"
-            />
-          </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
-            <Image
-              alt="stories"
-              src="/assets/images/logo-1.svg"
-              width={150}
-              height={40}
-              className="w-auto h-auto"
-            />
-          </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
-            <Image
-              alt="stories"
-              src="/assets/images/logo-1.svg"
-              width={150}
-              height={40}
-              className="w-auto h-auto"
-            />
-          </SwiperSlide>
-          <SwiperSlide className=" px-8 ">
-            <Image
-              alt="stories"
-              src="/assets/images/logo-1.svg"
+              src="/assets/images/logo-7.svg"
               width={150}
               height={40}
               className="w-auto h-auto"
