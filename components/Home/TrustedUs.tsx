@@ -140,6 +140,42 @@ export default function TrustedUs() {
               className="w-auto h-auto"
             />
           </SwiperSlide>
+          <SwiperSlide className=" !h-14 !w-auto !flex items-center ">
+            <Image
+              alt="stories"
+              src="/assets/images/logo-2.svg"
+              width={150}
+              height={40}
+              className="w-auto h-auto"
+            />
+          </SwiperSlide>
+          <SwiperSlide className=" !h-14 !w-auto !flex items-center ">
+            <Image
+              alt="stories"
+              src="/assets/images/logo-3.svg"
+              width={150}
+              height={40}
+              className="w-auto h-auto"
+            />
+          </SwiperSlide>
+          <SwiperSlide className=" !h-14 !w-auto !flex items-center ">
+            <Image
+              alt="stories"
+              src="/assets/images/logo-3.svg"
+              width={150}
+              height={40}
+              className="w-auto h-auto"
+            />
+          </SwiperSlide>
+          <SwiperSlide className=" !h-14 !w-auto !flex items-center ">
+            <Image
+              alt="stories"
+              src="/assets/images/logo-4.svg"
+              width={150}
+              height={40}
+              className="w-auto h-auto"
+            />
+          </SwiperSlide>
         </Swiper>
       </div>
       <div className="px-4">
