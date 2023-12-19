@@ -8,8 +8,8 @@ export default function TrustedUs() {
   return (
     <section className="bg-g2  pt-14 pb-12 lg:pb-24 md:pt-24 lg:pt-32 xl:pt-40 ">
       <div className="max-w-screen-md lg:max-w-screen-xl mx-auto">
-        <div className="max-w-[465px] mx-auto space-y-2 md:space-y-3">
-          <h3 className="font-bold text-brand-body text-[32px] md:text-[48px] text-center">
+        <div className="max-w-[465px] mx-auto space-y-2 md:space-y-6">
+          <h3 className="font-bold pl-3  text-brand-body text-[32px] md:text-[48px] text-center">
             They trusted us
           </h3>
           <p className="text-base md:text-lg font-medium text-center text-brand-primary">

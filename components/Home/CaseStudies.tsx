@@ -4,10 +4,10 @@ import Link from "next/link";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-export default function Banner() {
+export default function CaseStudies() {
   return (
-    <section className="max-sm:pr-0 px-4 z-40 relative pb-12 md:pb-20 lg:pb-28">
-      <div className="max-w-screen-md lg:max-w-screen-xl mx-auto space-y-6 sm:space-y-10">
+    <section className="max-sm:pr-0 px-4 z-40 relative pb-12 md:pb-20 lg:pb-28  ">
+      <div className="max-w-screen-md lg:max-w-screen-xl mx-auto space-y-6 sm:space-y-12">
         <Swiper
           spaceBetween={15}
           slidesPerView={1.2}
@@ -22,17 +22,17 @@ export default function Banner() {
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween: 20,
+              spaceBetween: 35,
             },
           }}
         >
           <SwiperSlide>
             <div className="overflow-hidden rounded-lg relative">
-              <ul className="flex gap-3 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
+              <ul className="flex gap-3 flex-wrap items-center absolute top-4 sm:top-5 left-4 sm:left-6">
                 <li>
                   <Link
                     href="#"
-                    className="px-4 sm:px-7 py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     LLM
                   </Link>
@@ -42,10 +42,10 @@ export default function Banner() {
                 alt="stories"
                 src="/assets/images/case-studies-1.png"
                 width={350}
-                height={160}
-                className="h-[160px] w-full object-cover object-center"
+                height={158}
+                className="h-[158px] w-full object-cover object-center"
               />
-              <div className="px-6 py-6  bg-white flex gap-2 justify-between items-start">
+              <div className="px-6 py-4  bg-white flex gap-2 justify-between items-start">
                 <div className="space-y-2">
                   <h2 className="text-lg lg:text-[18px] !leading-[1.5] font-extrabold">
                     <Link href="/dashboard" className="   text-brand-primary">
@@ -77,11 +77,11 @@ export default function Banner() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="overflow-hidden rounded-lg relative">
-              <ul className="flex gap-3 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
+              <ul className="flex gap-3 flex-wrap items-center absolute top-4 sm:top-5 left-4 sm:left-6">
                 <li>
                   <Link
                     href="#"
-                    className="px-4 sm:px-7 py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     LLM
                   </Link>
@@ -91,10 +91,10 @@ export default function Banner() {
                 alt="stories"
                 src="/assets/images/case-studies-2.png"
                 width={350}
-                height={160}
-                className="h-[160px] w-full object-cover object-center"
+                height={158}
+                className="h-[158px] w-full object-cover object-center"
               />
-              <div className="px-6 py-6  bg-white flex gap-2 justify-between items-start">
+              <div className="px-6 py-4  bg-white flex gap-2 justify-between items-start">
                 <div className="space-y-2">
                   <h2 className="text-lg lg:text-[18px] !leading-[1.5] font-extrabold">
                     <Link href="/dashboard" className="   text-brand-primary">
@@ -126,11 +126,11 @@ export default function Banner() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="overflow-hidden rounded-lg relative">
-              <ul className="flex gap-3 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
+              <ul className="flex gap-3 flex-wrap items-center absolute top-4 sm:top-5 left-4 sm:left-6">
                 <li>
                   <Link
                     href="#"
-                    className="px-4 sm:px-7 py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     Medtech
                   </Link>
@@ -140,10 +140,10 @@ export default function Banner() {
                 alt="stories"
                 src="/assets/images/case-studies-3.png"
                 width={350}
-                height={160}
-                className="h-[160px] w-full object-cover object-center"
+                height={158}
+                className="h-[158px] w-full object-cover object-center"
               />
-              <div className="px-6 py-6  bg-white flex gap-2 justify-between items-start">
+              <div className="px-6 py-4  bg-white flex gap-2 justify-between items-start">
                 <div className="space-y-2">
                   <h2 className="text-lg lg:text-[18px] !leading-[1.5] font-extrabold">
                     <Link href="/dashboard" className="   text-brand-primary">
@@ -177,7 +177,7 @@ export default function Banner() {
         <div className="flex justify-start sm:justify-end">
           <Link
             href="#"
-            className="flex gap-3 items-center text-base font-medium text-brand-body"
+            className="flex gap-2 items-center text-base font-medium text-brand-body"
           >
             <span>More awesome Case Studies </span>
             <svg

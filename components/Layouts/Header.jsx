@@ -46,7 +46,7 @@ export default function Header() {
                   <Times />
                 </button>
                 <div className="flex flex-col xl:flex-row gap-8 xl:gap-4 justify-between w-full">
-                  <ul className="flex flex-col xl:flex-row gap-6 xl:gap-10 xl:items-center">
+                  <ul className="flex flex-col xl:flex-row gap-6 xl:gap-11 xl:items-center">
                     <li className="group/link">
                       <Link href="#" className="font-semibold text-base ">
                         What we offer?
@@ -80,7 +80,7 @@ export default function Header() {
                   </ul>
                   <Link
                     href="/dashboard"
-                    className="w-[166px] text-center px-3 py-2 rounded-md bg-brand-primary font-bold text-base text-white"
+                    className="w-[166px] flex justify-center items-center h-[38px] !leading-none text-center px-4 py-2 rounded-md bg-brand-primary font-bold text-base text-white"
                   >
                     Book consultation
                   </Link>

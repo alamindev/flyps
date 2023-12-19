@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Banner() {
   return (
-    <section className="px-4 pb-80 pt-3 md:pt-[75px] z-40 relative">
+    <section className="px-4 pb-80 pt-3 md:pt-[70px] z-40 relative">
       <div className="max-w-screen-md lg:max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="space-y-4 sm:space-y-2 lg:pr-8">
-            <div className="flex gap-7 sm:gap-14 max-md:justify-center items-center">
+          <div className="space-y-4 sm:space-y-2 lg:pr-8 pt-6">
+            <div className="flex gap-7 sm:gap-11 max-md:justify-center items-center">
               <p className="font-medium text-sm ">High-Tech Software House</p>
               <div className="flex gap-1 sm:gap-2 items-center">
                 <Image
@@ -100,8 +100,8 @@ export default function Banner() {
                 </div>
               </div>
             </div>
-            <div className="pt-1 sm:pt-5 max-sm:w-full inline-flex max-sm:items-center flex-col gap-6 sm:gap-8 lg:gap-10">
-              <h3 className="text-transparent max-sm:text-center bg-text-gradient bg-clip-text inline-block">
+            <div className="pt-1 sm:pt-4 max-sm:w-full inline-flex max-sm:items-center flex-col gap-6 sm:gap-8 lg:gap-9">
+              <h3 className="text-transparent text-[28px] max-sm:text-center bg-text-gradient bg-clip-text inline-block">
                 #expert consulting
               </h3>
               <Link
@@ -128,7 +128,7 @@ export default function Banner() {
               />
               <div className="mt-px space-x-px flex">
                 <div className="grid grid-cols-4 gap-px">
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-4 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
                     <Image
                       alt="icon-1"
                       src="/assets/images/icon-1.svg"
@@ -139,7 +139,7 @@ export default function Banner() {
                       Medtech & Biotech
                     </h3>
                   </div>
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-4 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
                     <Image
                       alt="icon-2"
                       src="/assets/images/icon-2.svg"
@@ -147,21 +147,21 @@ export default function Banner() {
                       height={17}
                     />
                     <h3 className="text-sm !leading-[1.2] text-center font-bold text-brand-primary">
-                      Medtech & Biotech
+                      Large Language Models & ML
                     </h3>
                   </div>
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-4 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
                     <Image
                       alt="icon-3"
-                      src="/assets/images/icon-3.svg"
+                      src="/assets/images/icon-3.png"
                       width={15}
                       height={17}
                     />
                     <h3 className="text-sm !leading-[1.2] text-center font-bold text-brand-primary">
-                      Medtech & Biotech
+                      Computer Vision & Robotics
                     </h3>
                   </div>
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-4 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
                     <Image
                       alt="icon-4"
                       src="/assets/images/icon-4.svg"
@@ -169,7 +169,7 @@ export default function Banner() {
                       height={17}
                     />
                     <h3 className="text-sm !leading-[1.2] text-center font-bold text-brand-primary">
-                      Medtech & Biotech
+                      Fullstack Solutions
                     </h3>
                   </div>
                 </div>

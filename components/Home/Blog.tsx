@@ -4,36 +4,38 @@ import Link from "next/link";
 export default function Blog() {
   return (
     <section className="bg-white px-4 pb-4 sm:pb-12 pt-12 sm:pt-20 lg:pt-32   space-y-7 sm:space-y-10">
-      <div className="max-w-screen-md lg:max-w-screen-xl mx-auto space-y-8 lg:space-y-12">
+      <div className="max-w-screen-md lg:max-w-screen-xl mx-auto space-y-8 lg:space-y-9">
         <div className="flex justify-center lg:justify-between items-end">
-          <div className="flex gap-1 sm:gap-3 xl:gap-5 flex-col sm:flex-row items-center sm:items-end">
-            <h2 className="font-bold max-sm:px-6 text-[32px] max-sm:text-center lg:text-[48px] leading-[1.3] text-brand-body">
+          <div className="flex gap-1 sm:gap-3 xl:gap-6 flex-col sm:flex-row items-center sm:items-end">
+            <h2 className="font-bold  pt-2 max-sm:px-6 text-[32px] max-sm:text-center lg:text-[48px] leading-[1.3] text-brand-body">
               Blog
             </h2>
-            <p className="text-brand-primary max-sm:text-center text-lg font-medium pb-0.5">
+            <p className="text-brand-primary max-sm:text-center text-lg font-medium pb-[8px]">
               See our tech and business insights
             </p>
           </div>
-          <Link
-            href="#"
-            className="hidden shrink-0 lg:flex items-center gap-2 text-brand-body text-base"
-          >
-            <span>More blog posts</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="15"
-              height="8"
-              fill="none"
-              viewBox="0 0 15 8"
+          <div className="pb-2">
+            <Link
+              href="#"
+              className="hidden shrink-0 lg:flex items-center gap-2.5 text-brand-body text-base"
             >
-              <path
-                fill="#264EEE"
-                d="M1 3.5a.5.5 0 000 1v-1zm13.354.854a.5.5 0 000-.708L11.172.464a.5.5 0 10-.708.708L13.293 4l-2.829 2.828a.5.5 0 10.708.708l3.182-3.182zM1 4.5h13v-1H1v1z"
-              ></path>
-            </svg>
-          </Link>
+              <span>More blog posts</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="8"
+                fill="none"
+                viewBox="0 0 15 8"
+              >
+                <path
+                  fill="#264EEE"
+                  d="M1 3.5a.5.5 0 000 1v-1zm13.354.854a.5.5 0 000-.708L11.172.464a.5.5 0 10-.708.708L13.293 4l-2.829 2.828a.5.5 0 10.708.708l3.182-3.182zM1 4.5h13v-1H1v1z"
+                ></path>
+              </svg>
+            </Link>
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-x-5 gap-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-x-5 gap-y-7 ">
           <div className="md:col-span-5 overflow-hidden rounded-lg shadow-5xl relative bg-white">
             <Image
               alt="stories"
@@ -42,7 +44,7 @@ export default function Blog() {
               height={245}
               className="h-[245px] w-full object-cover object-center"
             />
-            <div className="px-5 pt-4 pb-7  bg-white flex gap-2 justify-between items-start">
+            <div className="px-6 pt-5 pb-7  bg-white flex gap-2 justify-between items-start">
               <div className=" space-y-1 max-w-[350px]">
                 <h4 className="text-base leading-[1.3] font-semibold uppercase text-brand-gray-100">
                   llm, robotics, medtech
@@ -79,7 +81,7 @@ export default function Blog() {
               height={245}
               className="h-[245px] w-full object-cover object-center"
             />
-            <div className="px-5 pt-4 pb-7  bg-white flex gap-2 justify-between items-start">
+            <div className="px-6 pt-5 pb-7  bg-white flex gap-2 justify-between items-start">
               <div className=" space-y-1 max-w-[350px]">
                 <h4 className="text-base leading-[1.3] font-semibold uppercase text-brand-gray-100">
                   LLM, robotics
@@ -116,7 +118,7 @@ export default function Blog() {
               height={245}
               className="h-[245px] w-full object-cover object-center"
             />
-            <div className="px-5 pt-4 pb-7  bg-white flex gap-2 justify-between items-start">
+            <div className="px-6 pt-5 pb-7  bg-white flex gap-2 justify-between items-start">
               <div className=" space-y-1 max-w-[350px]">
                 <h4 className="text-base leading-[1.3] font-semibold uppercase text-brand-gray-100">
                   MEDTECH
@@ -153,7 +155,7 @@ export default function Blog() {
               height={245}
               className="h-[245px] w-full object-cover object-center"
             />
-            <div className="px-5 pt-4 pb-7  bg-white flex gap-2 justify-between items-start">
+            <div className="px-6 pt-5 pb-7  bg-white flex gap-2 justify-between items-start">
               <div className=" space-y-1 max-w-[350px]">
                 <h4 className="text-base leading-[1.3] font-semibold uppercase text-brand-gray-100">
                   robotics
@@ -190,7 +192,7 @@ export default function Blog() {
               height={245}
               className="h-[245px] w-full object-cover object-center"
             />
-            <div className="px-5 pt-4 pb-7  bg-white flex gap-2 justify-between items-start">
+            <div className="px-6 pt-5 pb-7  bg-white flex gap-2 justify-between items-start">
               <div className=" space-y-1 max-w-[350px]">
                 <h4 className="text-base leading-[1.3] font-semibold uppercase text-brand-gray-100">
                   tour

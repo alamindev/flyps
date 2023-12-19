@@ -6,7 +6,7 @@ import { Autoplay, FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 export default function TrustedUs() {
   return (
-    <section className="pt-6 lg:pt-12 pb-10 sm:pb-24 lg:pb-32">
+    <section className="pt-8 lg:pt-14 pb-10 sm:pb-24 lg:pb-32">
       <div className="max-w-screen-md lg:max-w-screen-xl mx-auto">
         <div className="max-w-[465px] mx-auto  space-y-3 md:space-y-5">
           <h3 className="font-bold text-brand-body text-[32px] md:text-[48px] text-center">
@@ -17,7 +17,7 @@ export default function TrustedUs() {
           </p>
         </div>
       </div>
-      <div className="pt-10 md:pt-14 w-full">
+      <div className="pt-10 md:pt-12 w-full">
         <Swiper
           slidesPerView={"auto"}
           centeredSlides

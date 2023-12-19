@@ -29,11 +29,11 @@ export default function Footer() {
           objectPosition: "top",
         }}
       />
-      <div className="bg-brand-primary    px-4 py-12 sm:pt-24 sm:pb-20">
+      <div className="bg-brand-primary    px-4 py-12 sm:pt-[75px] sm:pb-20">
         <div className="max-w-screen-md lg:max-w-screen-xl mx-auto relative space-y-10 sm:space-y-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-4">
             <div className="flex flex-col justify-between gap-8">
-              <div className="space-y-6 sm:space-y-10">
+              <div className="space-y-6 sm:space-y-8">
                 <Link href="#">
                   <Image
                     alt="bg"
@@ -148,12 +148,12 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="grid grid-cols-2 gap-10 sm:gap-10 lg:-ml-5 pr-5">
-              <div className="space-y-6 sm:space-y-8">
+            <div className="grid grid-cols-2 gap-10 sm:gap-10 lg:-ml-6 pr-5">
+              <div className="space-y-6 sm:space-y-7">
                 <h3 className="text-lg lg:text-[18px] !leading-[1.4] text-white">
                   What we offer?
                 </h3>
-                <ul className="grid gap-2.5">
+                <ul className="grid gap-2 ">
                   <li>
                     <Link href="#" className="text-white text-sm ">
                       Interim CTO
@@ -211,7 +211,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="space-y-6 sm:space-y-8">
+              <div className="space-y-6 sm:space-y-7 pl-4">
                 <h3 className="text-lg lg:text-[18px] !leading-[1.4] text-white">
                   Specializations
                 </h3>
@@ -269,8 +269,8 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-col gap-8 sm:gap-16 justify-between lg:pl-8">
-              <div className="space-y-6 sm:space-y-8">
+            <div className="flex flex-col gap-8 sm:gap-8 justify-between lg:pl-8">
+              <div className="space-y-6 sm:space-y-7">
                 <h3 className="text-lg lg:text-[18px] !leading-[1.4] text-white">
                   About
                 </h3>
@@ -286,7 +286,7 @@ export default function Footer() {
                   Main office: Poznań, Bydgoska 2/8, 61-127
                 </p>
               </div>
-              <div className="space-y-2 sm:space-y-4">
+              <div className="space-y-2 sm:space-y-3">
                 <h3 className="font-bold   text-[18px] text-white ">
                   Join our team
                 </h3>

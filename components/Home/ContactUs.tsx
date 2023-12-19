@@ -6,7 +6,7 @@ export default function ContactUs() {
     <section className="sm:bg-g2 px-4 max-sm:pb-14 sm:max-md:py-14">
       <div className="max-w-screen-md lg:max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row gap-7 justify-between items-center ">
-          <div className="w-[250px] max-md:max-auto shrink-0 space-y-5 sm:space-y-6">
+          <div className="w-[250px] max-md:max-auto shrink-0 space-y-5 sm:space-y-6 -mt-5">
             <h3 className="font-bold max-md:text-center text-[28px] leading-[1.4] text-brand-primary">
               Bring your project in{" "}
               <span className="bg-text-gradient text-transparent bg-clip-text">
@@ -17,7 +17,7 @@ export default function ContactUs() {
               <Image
                 alt="bg"
                 src="/assets/images/clutch.svg"
-                width={42}
+                width={53}
                 height={15}
                 className="max-sm:w-8"
               />
@@ -40,11 +40,11 @@ export default function ContactUs() {
               </ul>
               <p className="text-sm font-semibold text-black">(5.0)</p>
             </div>
-            <div className="md:pt-6 pt-1 space-y-4">
+            <div className="md:pt-10 pt-1 space-y-7">
               <h4 className="text-[32px] sm:text-[28px] font-bold sm:font-semibold text-brand-body max-md:text-center">
                 Contact us
               </h4>
-              <ul className="grid gap-4 sm:gap-6">
+              <ul className="grid gap-3 sm:gap-7">
                 <li>
                   <Link
                     href="#"
@@ -108,24 +108,9 @@ export default function ContactUs() {
               </ul>
             </div>
           </div>
-          <div className="w-full md:w-[736px] sm:shadow-5xl sm:bg-white sm:pt-12 lg:pt-24 sm:pb-12 lg:pb-28 sm:px-4 md:px-10 lg:px-20">
+          <div className="w-full md:w-[736px] sm:shadow-5xl sm:bg-white sm:pt-12 lg:pt-[96px] sm:pb-12 lg:pb-28 sm:px-4 md:px-10 lg:px-[82px]">
             <form action="">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-7 gap-y-5">
-                <div className="space-y-2">
-                  <label
-                    htmlFor="last_name"
-                    className="block text-lg text-brand-body"
-                  >
-                    Last name*
-                  </label>
-                  <input
-                    type="text"
-                    id="last_name"
-                    name="last_name"
-                    placeholder="Enter last name"
-                    className="placeholder:text-brand-gray-150 sm:shadow-2.5xl bg-brand-blue-50 sm:bg-white w-full text-brand-body text-base px-4 py-3 focus:outline-none focus:ring-0 border-0 !border-b border-b-brand-primary"
-                  />
-                </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-9 gap-y-4">
                 <div className="space-y-2">
                   <label
                     htmlFor="first_name"
@@ -141,6 +126,22 @@ export default function ContactUs() {
                     className="placeholder:text-brand-gray-150 sm:shadow-2.5xl bg-brand-blue-50 sm:bg-white w-full text-brand-body text-base px-4 py-3 focus:outline-none focus:ring-0 border-0 !border-b border-b-brand-primary"
                   />
                 </div>
+                <div className="space-y-2">
+                  <label
+                    htmlFor="last_name"
+                    className="block text-lg text-brand-body"
+                  >
+                    Last name*
+                  </label>
+                  <input
+                    type="text"
+                    id="last_name"
+                    name="last_name"
+                    placeholder="Enter last name"
+                    className="placeholder:text-brand-gray-150 sm:shadow-2.5xl bg-brand-blue-50 sm:bg-white w-full text-brand-body text-base px-4 py-3 focus:outline-none focus:ring-0 border-0 !border-b border-b-brand-primary"
+                  />
+                </div>
+
                 <div className="space-y-2 lg:col-span-2">
                   <label
                     htmlFor="email"
@@ -213,12 +214,11 @@ export default function ContactUs() {
                     name=""
                     id=""
                     cols={30}
-                    rows={4}
-                    className="resize-none placeholder:text-brand-gray-150 sm:shadow-2.5xl bg-brand-blue-50 sm:bg-white w-full text-brand-body text-base px-4 py-3 focus:outline-none focus:ring-0 border-0 !border-b border-b-brand-primary"
+                    className="resize-none min-h-[100px] placeholder:text-brand-gray-150 sm:shadow-2.5xl bg-brand-blue-50 sm:bg-white w-full text-brand-body text-base px-4 py-3 focus:outline-none focus:ring-0 border-0 !border-b border-b-brand-primary"
                     placeholder="Enter message (optional)"
                   ></textarea>
                 </div>
-                <div className="space-y-2 lg:col-span-2">
+                <div className="space-y-2 lg:col-span-2 pl-2">
                   <div className="flex gap-2">
                     <input
                       id="policy"

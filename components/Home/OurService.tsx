@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function OurService() {
   return (
-    <section className="px-4 py-12 md:py-28 bg-g3 lg:py-44">
+    <section className="px-4 py-12 md:py-28 bg-g3 lg:pt-[185px] lg:pb-[192px]">
       <div className="max-w-screen-md lg:max-w-screen-xl mx-auto space-y-8 sm:space-y-10">
         <div className="flex justify-center lg:justify-between items-end">
           <div className="flex gap-1 sm:gap-5 flex-col sm:flex-row items-center sm:items-end">
@@ -33,15 +33,17 @@ export default function OurService() {
             </svg>
           </Link>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="rounded-lg shadow-5xl bg-white p-6 space-y-3">
-            <div className="flex gap-2 items-center">
-              <Image
-                alt="icon-3"
-                src="/assets/images/icon-3.svg"
-                width={20}
-                height={17}
-              />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-6">
+          <div className="rounded-lg shadow-5xl bg-white px-6 py-5 space-y-3">
+            <div className="flex gap-3 items-center">
+              <div className="w-[26px] h-[26px] flex justify-center items-center">
+                <Image
+                  alt="icon-3"
+                  src="/assets/images/icon-3.png"
+                  width={26}
+                  height={26}
+                />
+              </div>
               <h4 className="font-extrabold text-lg sm:text-[18px] text-brand-body">
                 Computer Vision & Robotics
               </h4>
@@ -69,14 +71,17 @@ export default function OurService() {
               </Link>
             </div>
           </div>
-          <div className="rounded-lg shadow-5xl bg-white p-6 space-y-3">
-            <div className="flex gap-2 items-center">
-              <Image
-                alt="icon-2"
-                src="/assets/images/icon-2.svg"
-                width={20}
-                height={17}
-              />
+          <div className="rounded-lg shadow-5xl bg-white px-6 py-5 space-y-3">
+            <div className="flex gap-3 items-center">
+              <div className="w-[26px] h-[26px] flex justify-center items-center">
+                <Image
+                  alt="icon-2"
+                  src="/assets/images/icon-2.svg"
+                  width={23}
+                  height={26}
+                />
+              </div>
+
               <h4 className="font-extrabold text-lg sm:text-[18px] text-brand-body">
                 Large Language Models
               </h4>
@@ -104,14 +109,16 @@ export default function OurService() {
               </Link>
             </div>
           </div>
-          <div className="rounded-lg shadow-5xl bg-white p-6 space-y-3">
-            <div className="flex gap-2 items-center">
-              <Image
-                alt="icon-4"
-                src="/assets/images/icon-4.svg"
-                width={20}
-                height={17}
-              />
+          <div className="rounded-lg shadow-5xl bg-white px-6 py-5 space-y-3">
+            <div className="flex gap-3 items-center">
+              <div className="w-[26px] h-[26px] flex justify-center items-center">
+                <Image
+                  alt="icon-4"
+                  src="/assets/images/icon-4.svg"
+                  width={22}
+                  height={25}
+                />
+              </div>
               <h4 className="font-extrabold text-lg sm:text-[18px] text-brand-body">
                 Deep & Machine Learning
               </h4>
@@ -139,14 +146,16 @@ export default function OurService() {
               </Link>
             </div>
           </div>
-          <div className="rounded-lg shadow-5xl bg-white p-6 space-y-3">
-            <div className="flex gap-2 items-center">
-              <Image
-                alt="icon-1"
-                src="/assets/images/icon-1.svg"
-                width={20}
-                height={17}
-              />
+          <div className="rounded-lg shadow-5xl bg-white px-6 py-5 space-y-3">
+            <div className="flex gap-3 items-center">
+              <div className="w-[26px] h-[26px] flex justify-center items-center">
+                <Image
+                  alt="icon-1"
+                  src="/assets/images/icon-1.svg"
+                  width={22}
+                  height={26}
+                />
+              </div>
               <h4 className="font-extrabold text-lg sm:text-[18px] text-brand-body">
                 Medtech & Biotech
               </h4>
@@ -174,14 +183,17 @@ export default function OurService() {
               </Link>
             </div>
           </div>
-          <div className="rounded-lg shadow-5xl bg-white p-6 space-y-3">
-            <div className="flex gap-2 items-center">
-              <Image
-                alt="icon-5"
-                src="/assets/images/icon-5.svg"
-                width={20}
-                height={17}
-              />
+          <div className="rounded-lg shadow-5xl bg-white px-6 py-5 space-y-3">
+            <div className="flex gap-3 items-center">
+              <div className="w-[26px] h-[26px] flex justify-center items-center">
+                <Image
+                  alt="icon-5"
+                  src="/assets/images/icon-5.svg"
+                  width={27}
+                  height={25}
+                />
+              </div>
+
               <h4 className="font-extrabold text-lg sm:text-[18px] text-brand-body">
                 Artificial Inteligence
               </h4>
@@ -209,14 +221,17 @@ export default function OurService() {
               </Link>
             </div>
           </div>
-          <div className="rounded-lg shadow-5xl bg-white p-6 space-y-3">
-            <div className="flex gap-2 items-center">
-              <Image
-                alt="icon-6"
-                src="/assets/images/icon-6.svg"
-                width={20}
-                height={17}
-              />
+          <div className="rounded-lg shadow-5xl bg-white px-6 py-5 space-y-3">
+            <div className="flex gap-3 items-center">
+              <div className="w-[26px] h-[26px] flex justify-center items-center">
+                <Image
+                  alt="icon-6"
+                  src="/assets/images/icon-6.svg"
+                  width={26}
+                  height={26}
+                />
+              </div>
+
               <h4 className="font-extrabold text-lg sm:text-[18px] text-brand-body">
                 UI/UX Design & Fullstack
               </h4>
