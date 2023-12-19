@@ -30,7 +30,7 @@ const config: Config = {
         "text-gradient":
           "linear-gradient(90deg, #264EEE 27.38%, rgba(255, 61, 46, 0.61) 77.83%)",
         g1: "linear-gradient(0deg, rgba(230, 235, 253, 1) 90%, rgba(255, 255, 255, 0) 100%)",
-        g2: "linear-gradient(180deg, rgba(39, 79, 238, 0.12) 0%, rgba(39, 79, 238, 0.00) 100%)",
+        g2: "linear-gradient(180deg, rgba(39, 79, 238, 0.12) 40%, rgba(39, 79, 238, 0.00) 100%)",
         g3: "linear-gradient(160deg, #264EEE 60%, #FF3D2E 122.88%)",
         g4: "linear-gradient(0deg, rgba(230,230,255,0.07) 0%, rgba(38,78,238,0.4) 50%, rgba(255,255,255,0.07) 100%)",
       },

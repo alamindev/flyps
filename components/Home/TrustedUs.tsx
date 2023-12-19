@@ -24,6 +24,11 @@ export default function TrustedUs() {
           loop
           modules={[Autoplay, FreeMode]}
           spaceBetween={10}
+          speed={8000}
+          autoplay={{
+            delay: 1,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             480: {
               slidesPerView: 3.5,

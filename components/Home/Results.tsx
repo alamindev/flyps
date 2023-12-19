@@ -22,6 +22,11 @@ export default function TrustedUs() {
           slidesPerView={"auto"}
           centeredSlides
           loop
+          speed={10000}
+          autoplay={{
+            delay: 1,
+            disableOnInteraction: false,
+          }}
           modules={[Autoplay, FreeMode]}
           spaceBetween={15}
           freeMode={true}
