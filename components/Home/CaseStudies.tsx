@@ -32,7 +32,7 @@ export default function CaseStudies() {
                 <li>
                   <Link
                     href="#"
-                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     LLM
                   </Link>
@@ -81,7 +81,7 @@ export default function CaseStudies() {
                 <li>
                   <Link
                     href="#"
-                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     LLM
                   </Link>
@@ -130,7 +130,7 @@ export default function CaseStudies() {
                 <li>
                   <Link
                     href="#"
-                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     Medtech
                   </Link>

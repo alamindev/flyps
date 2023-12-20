@@ -23,7 +23,7 @@ export default function Home() {
             quality={100}
             fill
             sizes="100vw"
-            className="lg:block hidden opacity-60"
+            className="lg:block hidden opacity-60 -mt-3"
             style={{
               objectFit: "cover",
               objectPosition: "top",

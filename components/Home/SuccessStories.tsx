@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <section className="px-4 z-40 relative pb-12 sm:pb-16">
+    <section className="px-4 pt-2 z-40 relative pb-12 sm:pb-16">
       <div className="max-w-screen-md lg:max-w-screen-xl mx-auto space-y-6 sm:space-y-10">
         <div className="flex gap-1 sm:gap-7 flex-col sm:flex-row items-center sm:items-end">
           <h2 className="font-bold tracking-tight text-[32px] max-sm:text-center lg:text-[48px] leading-[1.3] text-brand-body">
@@ -15,12 +15,12 @@ export default function Banner() {
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 max-lg:gap-6">
-          <div className="rounded-md overflow-hidden shadow-4xl relative bg-white lg:-mr-3">
+          <div className="rounded-lg overflow-hidden shadow-4xl relative bg-white lg:-mr-3">
             <ul className="flex gap-2 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
               <li>
                 <Link
                   href="#"
-                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                 >
                   LLM
                 </Link>
@@ -28,7 +28,7 @@ export default function Banner() {
               <li>
                 <Link
                   href="#"
-                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                 >
                   Medtech
                 </Link>
@@ -36,7 +36,7 @@ export default function Banner() {
               <li>
                 <Link
                   href="#"
-                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                 >
                   Robotics
                 </Link>
@@ -86,12 +86,12 @@ export default function Banner() {
             </div>
           </div>
           <div className="lg:pl-12 xl:pl-[82px] flex-col-reverse flex gap-7 lg:gap-16 lg:flex-col">
-            <div className="rounded-md overflow-hidden shadow-4xl relative bg-white">
+            <div className="rounded-lg overflow-hidden shadow-4xl relative bg-white">
               <ul className="flex gap-2 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
                 <li>
                   <Link
                     href="#"
-                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     Medtech
                   </Link>
@@ -99,7 +99,7 @@ export default function Banner() {
                 <li>
                   <Link
                     href="#"
-                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     Robotics
                   </Link>
@@ -186,12 +186,12 @@ export default function Banner() {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-8 lg:gap-14 lg:pt-6">
-          <div className="rounded-md overflow-hidden shadow-4xl relative bg-white">
+          <div className="rounded-lg overflow-hidden shadow-4xl relative bg-white">
             <ul className="flex gap-2 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
               <li>
                 <Link
                   href="#"
-                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                 >
                   LLM
                 </Link>
@@ -199,7 +199,7 @@ export default function Banner() {
               <li>
                 <Link
                   href="#"
-                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                 >
                   Medtech
                 </Link>
@@ -269,12 +269,12 @@ export default function Banner() {
                 </p>
               </div>
             </div>
-            <div className="rounded-md overflow-hidden shadow-4xl relative bg-white">
+            <div className="rounded-lg overflow-hidden shadow-4xl relative bg-white">
               <ul className="flex gap-2 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
                 <li>
                   <Link
                     href="#"
-                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     LLM
                   </Link>
@@ -282,7 +282,7 @@ export default function Banner() {
                 <li>
                   <Link
                     href="#"
-                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                    className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                   >
                     Robotics
                   </Link>
@@ -332,12 +332,12 @@ export default function Banner() {
               </div>
             </div>
           </div>
-          <div className="-ml-[10px] mt-2  rounded-md overflow-hidden shadow-4xl relative bg-white">
+          <div className="-ml-[10px] mt-2  rounded-lg overflow-hidden shadow-4xl relative bg-white">
             <ul className="flex gap-2 flex-wrap items-center absolute top-4 sm:top-6 left-4 sm:left-6">
               <li>
                 <Link
                   href="#"
-                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                 >
                   LLM
                 </Link>
@@ -345,7 +345,7 @@ export default function Banner() {
               <li>
                 <Link
                   href="#"
-                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-md bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
+                  className="px-4 w-[95px] h-[27px] flex justify-center items-center py-2 rounded-[8px] bg-white text-brand-primary font-extrabold text-sm hover:bg-opacity-90 transition-all"
                 >
                   Robotics
                 </Link>

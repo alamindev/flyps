@@ -9,7 +9,7 @@ export default function Banner() {
           <div className="space-y-4 sm:space-y-2 lg:pr-8 pt-6">
             <div className="flex gap-7 sm:gap-11 max-md:justify-center items-center">
               <p className="font-medium text-sm ">High-Tech Software House</p>
-              <div className="flex gap-1 sm:gap-2 items-center">
+              <div className="flex gap-0.5 items-center">
                 <Image
                   alt="bg"
                   src="/assets/images/clutch.svg"
@@ -17,7 +17,7 @@ export default function Banner() {
                   height={15}
                   className="max-sm:w-8"
                 />
-                <ul className="flex gap-0.5 items-center">
+                <ul className="flex   items-center">
                   <li>
                     <Star />
                   </li>
@@ -112,7 +112,7 @@ export default function Banner() {
               </Link>
             </div>
           </div>
-          <div className="lg:-ml-4 lg:block hidden">
+          <div className="lg:-ml-2 lg:block hidden">
             <div className="rounded-lg overflow-hidden">
               <Image
                 alt="bg"
@@ -128,7 +128,7 @@ export default function Banner() {
               />
               <div className="mt-px space-x-px flex">
                 <div className="grid grid-cols-4 gap-px">
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-2 items-center justify-center">
                     <Image
                       alt="icon-1"
                       src="/assets/images/icon-1.svg"
@@ -139,7 +139,7 @@ export default function Banner() {
                       Medtech & Biotech
                     </h3>
                   </div>
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-2 items-center justify-center">
                     <Image
                       alt="icon-2"
                       src="/assets/images/icon-2.svg"
@@ -150,7 +150,7 @@ export default function Banner() {
                       Large Language Models & ML
                     </h3>
                   </div>
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-2 items-center justify-center">
                     <Image
                       alt="icon-3"
                       src="/assets/images/icon-3.png"
@@ -161,7 +161,7 @@ export default function Banner() {
                       Computer Vision & Robotics
                     </h3>
                   </div>
-                  <div className="flex gap-2 flex-col py-2.5 bg-white px-3 items-center justify-center">
+                  <div className="flex gap-2 flex-col py-2.5 bg-white px-2 items-center justify-center">
                     <Image
                       alt="icon-4"
                       src="/assets/images/icon-4.svg"

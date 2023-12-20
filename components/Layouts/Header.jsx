@@ -48,32 +48,50 @@ export default function Header() {
                 <div className="flex flex-col xl:flex-row gap-8 xl:gap-4 justify-between w-full">
                   <ul className="flex flex-col xl:flex-row gap-6 xl:gap-11 xl:items-center">
                     <li className="group/link">
-                      <Link href="#" className="font-semibold text-base ">
+                      <Link
+                        href="#"
+                        className="font-semibold text-base tracking-[2%] "
+                      >
                         What we offer?
                       </Link>
                     </li>
                     <li className="group/link">
-                      <Link href="#" className="font-semibold text-base ">
+                      <Link
+                        href="#"
+                        className="font-semibold text-base tracking-[2%] "
+                      >
                         Portfolio
                       </Link>
                     </li>
                     <li className="group/link">
-                      <Link href="#" className="font-semibold text-base ">
+                      <Link
+                        href="#"
+                        className="font-semibold text-base tracking-[2%] "
+                      >
                         Clients
                       </Link>
                     </li>
                     <li className="group/link">
-                      <Link href="#" className="font-semibold text-base ">
+                      <Link
+                        href="#"
+                        className="font-semibold text-base tracking-[2%] "
+                      >
                         Blog
                       </Link>
                     </li>
                     <li className="group/link">
-                      <Link href="#" className="font-semibold text-base ">
+                      <Link
+                        href="#"
+                        className="font-semibold text-base tracking-[2%] "
+                      >
                         Careers
                       </Link>
                     </li>
                     <li className="group/link">
-                      <Link href="#" className="font-semibold text-base ">
+                      <Link
+                        href="#"
+                        className="font-semibold text-base tracking-[2%] "
+                      >
                         Contact
                       </Link>
                     </li>
